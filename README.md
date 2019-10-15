@@ -34,7 +34,7 @@ word2vec模型(暫不提供)
 預測模型(暫不提供)  
 
 ## 參考資料
-以下連結與資料在我學習過程中提供了一些很棒的想法和思路
+以下連結與資料在我學習過程中提供了一些很棒的想法和思路  
 [2018中国‘法研杯’法律智能挑战赛（CAIL2018）个人作品](https://github.com/renjunxiang/Competition_CAIL)  
 [文字探勘on判決預測](http://www.52nlp.cn/tag/textcnn)  
 [Attention](https://gist.github.com/cbaziotis/6428df359af27d58078ca5ed9792bd6d)  
