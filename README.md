@@ -18,20 +18,30 @@
 由判決主文決定判決結果，並分為以下三種  
 > 1. 原告訴求或部分訴求法官同意(原告勝訴)  
 > 2. 原告訴求遭法院駁回(原告敗訴)  
-> 3. 其他(像是原判決廢棄、案件移送其他法院等)
+> 3. 其他(像是原判決廢棄、案件移送其他法院等)  
+
+p.s. 其餘欄位像是出現的法條、法官等雖然我有整理出來，但並沒有實際應用到判決預測中。
 
 ## 模型介紹與說明
 * **使用套件**：  
-pandas jieba gensim sklearn keras  
-* **訓練流程**：  
--- 施工中 --  
-* **模型介紹**：  
+資料清理：Pandas  
+斷詞：Jieba  
+Word2vec：Gensim  
+模型：Sklearn、Keras  
+* **訓練流程與模型介紹**：  
 -- 施工中 --  
 * **模型下載**：  
-訓練資料(暫不提供)、結巴繁中字典_含法律專有名詞(暫不提供)、word2vec模型(暫不提供)、預測模型(暫不提供)
+訓練資料(暫不提供)  
+結巴繁中字典_含法律專有名詞(暫不提供)  
+word2vec模型(暫不提供)  
+預測模型(暫不提供)  
 
 ## 參考資料
--- 施工中 --
+以下連結與資料在我學習過程中提供了一些很棒的想法和思路
+* [2018中国‘法研杯’法律智能挑战赛（CAIL2018）个人作品](https://github.com/renjunxiang/Competition_CAIL)  
+* [文字探勘on判決預測](http://www.52nlp.cn/tag/textcnn)  
+* [Attention](https://gist.github.com/cbaziotis/6428df359af27d58078ca5ed9792bd6d)  
+* [Leemeng-NLP](https://leemeng.tw/tag/zi-ran-yu-yan-chu-li.html)  
 
 ## TODO
 - [X] 上傳訓練模型code  
