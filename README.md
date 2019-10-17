@@ -27,12 +27,12 @@ p.s. 其餘欄位像是出現的法條、法官等雖然我有整理出來，但
 Pandas、Jieba、Gensim、Sklearn、Keras  
 
 * **訓練流程與模型介紹**：    
-模型結構:  
+** 模型結構:  
 案件描述輸入 > embedding(word2vec) > LSTM(雙向GRU) > Attention >  
 連接層 > LSTM(雙向GRU) > Attention(產出句子權重) > 連接層 > 判決結果  
-訓練結果:  
+** 訓練結果:  
 epochs = 23 、 train_acc = 0.826 、 test_acc = 0.830  
-句子重要性:  
+** 句子重要性:  
 --施工中--  
 
 * **模型下載**：  
