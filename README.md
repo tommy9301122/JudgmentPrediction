@@ -52,7 +52,7 @@ word2vec模型(暫不提供)
 ## TODO
 - [X] 上傳訓練模型code  
 - [ ] 完善github
-
+- [ ] 更新至tensorflow2.0 並使用tf.keras
 
 
 
