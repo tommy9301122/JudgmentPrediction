@@ -1,6 +1,6 @@
 # DecisionPrediction
 歡迎來到損害賠償案件判決預測！
-此項目的研究動機本是因為工作上的老闆對於判決預測有興趣，後來因種種原因擱置之後，我自己將此項目稍微完善並分享於此。
+此項目使用Keras建立NLP的分類預測模型，是我初學深度學習用以練習的項目。
 
 ## 訓練資料來源
 [司法院判決書開放資料下載](http://210.69.124.88/)  
@@ -34,13 +34,7 @@ Pandas、Jieba、Gensim、Sklearn、Keras
 epochs = 23 、 train_acc = 0.826 、 test_acc = 0.830  
 
 * **句子重要性**:  
---施工中--  
-
-* **模型下載**：  
-訓練資料(暫不提供)  
-結巴繁中字典_含法律專有名詞(暫不提供)  
-word2vec模型(暫不提供)  
-預測模型(暫不提供)  
+wip  
 
 ## 參考資料
 以下連結與資料在我學習過程中提供了一些很棒的想法和思路  
@@ -48,11 +42,6 @@ word2vec模型(暫不提供)
 [文字探勘on判決預測](http://www.52nlp.cn/tag/textcnn)  
 [Attention](https://gist.github.com/cbaziotis/6428df359af27d58078ca5ed9792bd6d)  
 [Leemeng-NLP](https://leemeng.tw/tag/zi-ran-yu-yan-chu-li.html)  
-
-## TODO
-- [X] 上傳訓練模型code  
-- [ ] 完善github
-- [ ] 更新至tensorflow2.0 並使用tf.keras
 
 
 
