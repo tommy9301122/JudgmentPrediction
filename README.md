@@ -33,7 +33,7 @@ Pandas、Jieba、Gensim、Sklearn、Keras
 epochs = 23 、 train_acc = 0.826 、 test_acc = 0.830  
 
 * **句子重要性**:  
-wip  
+利用Attention特性找出判決書中影響法官判決結果的內容
 
 ## 參考資料
 以下連結與資料在我學習過程中提供了一些很棒的想法和思路  
